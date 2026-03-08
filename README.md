@@ -21,5 +21,16 @@ Run the server cli where kafka is installed and configured.
 ```
 ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic "crypto_market"
 ```
+----
+
+# Project build
+* Install and initialize the npm packages.
+``` 
+> npm install
+``` 
+## Npm Packages:
+1. kafkajs
+2. redis
+
 
 
